@@ -138,7 +138,7 @@ class _soonpageState extends State<soonpage> {
           SingleChildScrollView(
             child: Container(
                 width: double.infinity,
-                height: 430,
+                height: 600,
                 child: ListView.builder(
                     itemCount: 3,
                     itemBuilder: (context, index) => Column(
@@ -211,7 +211,7 @@ class _soonpageState extends State<soonpage> {
                                                 color: Colors.white,
                                                 fontSize: 18.662282943725586,
                                                 fontWeight: FontWeight.w700)),
-                                        SizedBox(height: 10),
+                                        SizedBox(height: 5),
                                         Text(
                                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quam dui, vivamus.bibendum ut. A morbi mi tortor ut felis non accumsan accumsan quis. Massa.id ut ipsum aliquam enim non posuere pulvinar diam.",
                                             style: TextStyle(
